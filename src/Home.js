@@ -29,7 +29,7 @@ export default class Home extends Component {
                     <SlideLong/>
                 </div>
                 
-                <ButtonSocial />
+                <ButtonSocial  className = 'socialbar'/>
             </div>
         )
     }

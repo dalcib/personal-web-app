@@ -11,38 +11,37 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 export default class socialMedia extends Component {
     render() {
         return (
-            <div className = 'footer'>
-                
-                <a 
-                classname = 'in'
-                href = 'www.instagram.com'> 
-                <FontAwesomeIcon icon = {faInstagram} />
-                </a>
-                <a 
-                classname = 'in'
-                href = 'www.instagram.com'> 
-                <FontAwesomeIcon icon = {faFacebook} />
-                </a>
-                <a 
-                classname = 'in'
-                href = 'www.instagram.com'> 
-                <FontAwesomeIcon icon = {faTwitter} />
-                </a>
-                <a 
-                classname = 'in'
-                href = 'www.instagram.com'> 
-                <FontAwesomeIcon icon = {faVimeo} />
-                <a 
-                classname = 'in'
-                href = 'www.instagram.com'> 
-                <FontAwesomeIcon icon = {faYoutube} />
-                </a>
-                <a 
-                classname = 'in'
-                href = 'www.instagram.com'> 
-                <FontAwesomeIcon icon = {faGithub} />
-                </a>
-                </a>
+            <div className = 'socialcont'>
+                <div className = 'midle'>
+                    <a href  = "URL" >
+                    <FontAwesomeIcon icon = {faInstagram} className = 'ic' size="2x" />
+                    </a>
+                 </div>   
+                <div className = 'midle'>
+                    <a href  = "URL">
+                        <FontAwesomeIcon icon = {faFacebook} className = 'ic' size="2x" />
+                    </a>
+                </div>
+                <div className = 'midle'>
+                    <a href  = "URL">
+                        <FontAwesomeIcon icon = {faTwitter} className = 'ic' size="2x"/>
+                    </a>
+                </div>
+                <div className = 'midle'>
+                    <a href  = "URL">
+                        <FontAwesomeIcon icon = {faVimeo} className = 'ic' size="2x"/>
+                    </a>
+                </div>
+                <div className = 'midle'>
+                    <a href  = "URL">
+                        <FontAwesomeIcon icon = {faYoutube} className = 'ic' size="2x"/>
+                    </a>
+                </div>
+                <div className = 'midle'>
+                    <a href  = "URL">
+                        <FontAwesomeIcon icon = {faGithub} className = 'ic' size="2x"/>
+                    </a>
+                </div>
             </div>
         )
     }

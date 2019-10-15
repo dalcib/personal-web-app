@@ -1,12 +1,21 @@
-.in{
+.midle{
+    display:inline-block;
+    padding: 15px;
+    
+}
+.socialcont{
+    position: fixed;
+    width: 500px;
+    left: -2%;
+    top: 86%;
 }
 
-.footer{
-   position: fixed;
-   left: 10%;
-    top: 87%;
+.ic{
+    background: #2C5364;
+    padding: 5px;
+    transform: scale(1.4);
+    color: white;
+    border-radius: 10px;
+
 }
 
-.in:hover{
-    transform:scale(1.3);
-}

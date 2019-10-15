@@ -176,6 +176,7 @@ a.Item:link
 
 .rootImg{
   padding: 60px
+  
 }
 
 .imgIntro:hover{
@@ -215,4 +216,24 @@ a.Item:link
     opacity: 1;
   }
 
+}
+
+.socialbar{
+  opacity:0;
+  animation: socialAnimBegin 5s;
+  animation-iteration-count: initial;
+}
+@keyframes socialAnimBegin{
+
+  0%{
+    opacity: 0;
+  }
+  48%{
+    opacity: 0;
+
+  }  
+
+  100%{
+    opacity: 1;
+  }
 }
