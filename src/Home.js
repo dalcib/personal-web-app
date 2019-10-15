@@ -26,20 +26,9 @@ export default class Home extends Component {
                 />
                 <br />
                 <div className='rootImg'>
-                    <SlideLong
-                        tit='Movile Office'
-                        des='3d design of a movile office, made in arnold '
-                        date='22/09/19'
-                        src1='../graphics/slide-long/imageIntro-1.jpeg'
-                    />
+                    <SlideLong/>
                 </div>
-                <div className='rootImg'>
-                    <SlideLong
-                        tit='Titulo'
-                        des='Description'
-                        date='Date'
-                    />
-                </div>
+                
                 <ButtonSocial />
             </div>
         )

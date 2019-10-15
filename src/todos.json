@@ -4,14 +4,22 @@
     "title": "First own made texture",
     "description": "This is my first scene made with my own textures. Was rendered in Arnold.",
     "tags": "Arnold ,Render ,3D , Textures",
-    "date": "October 2019"
+    "date": "October 2019",
+    "img1": "../graphics/slide-long/imageIntro-1.jpeg",
+    "img2": "../graphics/slide-long/imageIntro-2.jpeg",
+    "img3": "../graphics/slide-long/imageIntro-3.jpeg"
 
 },
 {
     "title": "Messenger 3D model",
     "description": "First model for a short animation proyect name Barbarius",
     "tags": "Mesh ,Maya ,3D , Model",
-    "date": "September 2019"    
+    "date": "September 2019",
+    "img1": "../graphics/slide-long/imageIntro-1.jpeg",
+    "img2": "../graphics/slide-long/imageIntro-2.jpeg",
+    "img3": "../graphics/slide-long/imageIntro-3.jpeg"   
+
+     
     
 }
 

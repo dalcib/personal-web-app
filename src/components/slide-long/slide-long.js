@@ -3,6 +3,8 @@ import imag2 from '../graphics/slide-long/imageIntro-2.jpeg';
 import imag3 from '../graphics/slide-long/imageIntro-3.jpeg';
 import Boton from '../btn-more/buttonMore';
 import { todos } from '../../todos.json';
+import Img from 'react-image';
+
 
 console.log(todos);
 
@@ -18,33 +20,32 @@ export default class imageIntro extends Component {
     }
     render() {
        const todos = this.state.todos.map((todo,i) =>{
-            return(
-                <div className = "Card">
-                    {todo.title}
-                </div>
-            )
-        })
-        return (
-            <div>
-                <div className = "imageIntroMain">
-                    <div className = "mainDescription">
+        const img1= todo.img1;
+        console.log(img1);  
+        return(
+              
+            <div className = "imageIntroMain">
+                <div className = "mainDescription">
                         <br/>
                         <p className = 'descTit' >  
-                         { this.props.tit}
+                        { todo.title }
                         </p>
                         <p className = "Description ">
-                         {this.props.des}   
+                        { todo.description }   
                         </p>
                         <p className = 'Date'>
-                            {this.props.date}
+                            { todo.date }
+                        </p>
+                        <p className = 'Date'>
+                            { todo.tags }
                         </p>
                         <Boton></Boton>
-                    </div>
+                </div>
+                <div>
                     <br/>
-                    
-                    
+                
                     <a href = "Sitio del imagen">
-                        <img src = {require('../graphics/slide-long/imageIntro-1.jpeg')}
+                        <img source = {'http://via.placeholder.com/350x150'}
                         className = 'imgIntro' alt = "img1" />
                     </a>
                     <a href = "Sitio del imagen">
@@ -55,9 +56,16 @@ export default class imageIntro extends Component {
                         <img src = {imag3}
                         className = 'imgIntro' alt = "img3" />
                     </a>
-                    <div> {todos}</div>
                 </div>
                 <br/>
+            </div>
+
+               
+            )
+        })
+        return (
+            <div>
+                <div> {todos}</div>    
             </div>
         )
     }

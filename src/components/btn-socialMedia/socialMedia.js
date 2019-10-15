@@ -14,31 +14,31 @@ export default class socialMedia extends Component {
             <div className = 'footer'>
                 
                 <a 
-                classname = 'Icon'
+                classname = 'in'
                 href = 'www.instagram.com'> 
                 <FontAwesomeIcon icon = {faInstagram} />
                 </a>
                 <a 
-                classname = 'Icon'
+                classname = 'in'
                 href = 'www.instagram.com'> 
                 <FontAwesomeIcon icon = {faFacebook} />
                 </a>
                 <a 
-                classname = 'Icon'
+                classname = 'in'
                 href = 'www.instagram.com'> 
                 <FontAwesomeIcon icon = {faTwitter} />
                 </a>
                 <a 
-                classname = 'Icon'
+                classname = 'in'
                 href = 'www.instagram.com'> 
                 <FontAwesomeIcon icon = {faVimeo} />
                 <a 
-                classname = 'Icon'
+                classname = 'in'
                 href = 'www.instagram.com'> 
                 <FontAwesomeIcon icon = {faYoutube} />
                 </a>
                 <a 
-                classname = 'Icon'
+                classname = 'in'
                 href = 'www.instagram.com'> 
                 <FontAwesomeIcon icon = {faGithub} />
                 </a>

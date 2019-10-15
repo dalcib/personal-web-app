@@ -1,8 +1,12 @@
-.Icon{
-    background: grey;
-    padding: 2vmin;
+.in{
 }
 
 .footer{
-    background: grey;
+   position: fixed;
+   left: 10%;
+    top: 87%;
+}
+
+.in:hover{
+    transform:scale(1.3);
 }
