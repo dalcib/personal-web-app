@@ -1,0 +1,42 @@
+.mainTittle{
+    background: #D3CCE3;  
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); 
+    font-family: 'Amatic SC';
+    animation-name: animDelay;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+    position: absolute;
+    top: -35%;
+    height: 300px;
+    width: 1500px;
+    border: outset 3px rgba(0, 0, 0, 0.3);
+    
+}
+.txt{
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    font-size:5vmin; 
+
+}
+
+@keyframes animDelay{
+    0%{
+        opacity: 0;;
+        top: -50%;
+    }
+    30%{
+        opacity: 0;
+        top: -50%;
+    }
+    48%{
+        opacity: 1;
+        top: -20%;
+    }  
+  
+    100%{
+        top:-35%;
+    }
+  
+  }

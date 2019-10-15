@@ -1,0 +1,29 @@
+{
+"todos" :[
+{
+    "title": "First own made texture",
+    "description": "This is my first scene made with my own textures. Was rendered in Arnold.",
+    "tags": "Arnold ,Render ,3D , Textures",
+    "date": "October 2019"
+
+},
+{
+    "title": "Messenger 3D model",
+    "description": "First model for a short animation proyect name Barbarius",
+    "tags": "Mesh ,Maya ,3D , Model",
+    "date": "September 2019"    
+    
+}
+
+
+
+
+
+
+
+
+]
+
+
+
+}
