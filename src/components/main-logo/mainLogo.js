@@ -7,11 +7,12 @@ export default class mainLogo extends Component {
         return (
         <Router>        
             <div>
-                <Link to="/HomeNews">
-                    <img src = {LogoP}
-                    className = 'mainLogo' alt = "Logo Alex"/>
-                    
-                </Link>
+                
+                    <a href = "Home">
+                        <img src = {LogoP}
+                        className = 'mainLogo' alt = "Logo Alex"/>
+                    </a>
+                
             </div>
         </Router>       
         )

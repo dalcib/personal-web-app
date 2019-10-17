@@ -1,21 +1,45 @@
 .midle{
     display:inline-block;
-    padding: 15px;
-    
+    padding: 2%;
+    opacity: 0;
 }
 .socialcont{
     position: fixed;
-    width: 500px;
-    left: -2%;
-    top: 86%;
+    width: 300px;
+    left: -1%;
+    top: 90%;
+    background: rgba(0, 0, 0, 0.5);
+    
 }
 
 .ic{
     background: #2C5364;
     padding: 5px;
-    transform: scale(1.4);
+    transform: scale(1);
     color: white;
     border-radius: 10px;
 
 }
+.follow{
+    text-align: center;
+    width: 20%;
+    left: -1%;
+    top: 90%;
+    position:fixed;
+    font-family: 'Poiret One', cursive;
+    font-size: 150%;
+    color: white;
+    opacity: 0.7;
+}
 
+.midle:hover{
+    transform:scale(1.4);
+}
+
+.socialcont:hover > .midle{
+    opacity: 1;
+}
+
+.socialcont:hover > .follow{
+    opacity: 0;
+}

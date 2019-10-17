@@ -85,6 +85,7 @@ a.Item:link
 
 
 /* Barra de Navegación*/
+
 .Item
 {
   background: rgba(1, 29, 36, 0.2);  
@@ -121,6 +122,8 @@ a.Item:link
   transform: scale(1.2); 
   font-size: 4vmin;
 }
+
+
 
 @keyframes navAnimBegin{
   0%{
@@ -218,9 +221,10 @@ a.Item:link
 
 }
 
+
+/* Barra de social media */
 .socialbar{
-  opacity:0;
-  animation: socialAnimBegin 5s;
+  animation: socialAnimBegin 7s;
   animation-iteration-count: initial;
 }
 @keyframes socialAnimBegin{
@@ -236,4 +240,11 @@ a.Item:link
   100%{
     opacity: 1;
   }
+}
+
+@media (max-width:800px){
+  .App{
+    background: red;
+  }
+
 }

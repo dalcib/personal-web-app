@@ -1,11 +1,17 @@
 import React, { Component } from 'react'
+/*Imported styles*/
+import './components/tittle-top/css/mainTittle.css';
 import './App.css';
+
+/* Imported components*/ 
 import Navegation from './components/side-nav/side-nav';
 import MainLogo from './components/main-logo/mainLogo';
 import SlideLong from './components/slide-long/slide-long';
 import ButtonSocial from './components/btn-socialMedia/socialMedia';
-import './components/tittle-top/css/mainTittle.css';
 import TittleTop from './components/tittle-top/mainTittle';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChessQueen } from '@fortawesome/free-solid-svg-icons'
+
 
 export default class Home extends Component {
     render() {
@@ -21,15 +27,14 @@ export default class Home extends Component {
                     subt2='My working portafolio'
                     subt3='Contact me '
                 />
-                <TittleTop
-                    txt='NEWS & RECENT'
-                />
+                <TittleTop txt='NEWS & RECENT'/>
                 <br />
                 <div className='rootImg'>
                     <SlideLong/>
                 </div>
-                
-                <ButtonSocial  className = 'socialbar'/>
+                <div className = 'socialbar'>
+                    <ButtonSocial/>
+                </div>
             </div>
         )
     }

@@ -12,13 +12,20 @@ function App() {
     <div className = "App">
       <Router>
         <Switch>
-            <Route path = "/Home" >
-                <Home></Home>
-            </Route>
-            <Route exact path = '/MyWork'>
-                <Mywork></Mywork>
-            </Route>
+            <Route path = "/Home" render={
+              () =>{
+                return (<Home></Home>);
+              }
 
+            } />
+        </Switch>
+        <Switch>
+              <Route path = "/MyWork" render={
+              () =>{
+                return (<Mywork></Mywork>);
+              }
+
+            } /> 
         </Switch>
       </Router>
     </div>
