@@ -43,3 +43,20 @@
 .socialcont:hover > .follow{
     opacity: 0;
 }
+
+@media (max-width:800px){
+    .follow{
+        font-size: 100%;
+        width: 100%;
+    }
+    .socialcont{
+        width:100%;
+        height: 10%;
+    }
+    .midle{
+        opacity: 0.1;
+        top: 40px;
+    }
+    
+
+}

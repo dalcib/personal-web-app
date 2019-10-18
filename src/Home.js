@@ -27,7 +27,6 @@ export default class Home extends Component {
                     subt2='My working portafolio'
                     subt3='Contact me '
                 />
-                <TittleTop txt='NEWS & RECENT'/>
                 <br />
                 <div className='rootImg'>
                     <SlideLong/>
@@ -35,6 +34,7 @@ export default class Home extends Component {
                 <div className = 'socialbar'>
                     <ButtonSocial/>
                 </div>
+                <TittleTop txt='NEWS & RECENT'/>
             </div>
         )
     }

@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import imag1 from '../graphics/slide-long/imageIntro-1.jpeg';
 import imag2 from '../graphics/slide-long/imageIntro-2.jpeg';
 import imag3 from '../graphics/slide-long/imageIntro-3.jpeg';
 import Boton from '../btn-more/buttonMore';
 import { todos } from '../../todos.json';
-import Img from 'react-image';
+
 
 
 console.log(todos);
@@ -20,8 +21,6 @@ export default class imageIntro extends Component {
     }
     render() {
        const todos = this.state.todos.map((todo,i) =>{
-        const img1= todo.img1;
-        console.log(img1);  
         return(
               
             <div className = "imageIntroMain">
@@ -39,25 +38,15 @@ export default class imageIntro extends Component {
                         <p className = 'Date'>
                             { todo.tags }
                         </p>
-                        <Boton></Boton>
                 </div>
                 <div>
-                    <br/>
-                
                     <a href = "Sitio del imagen">
-                        <img source = {'http://via.placeholder.com/350x150'}
+                        <img src = {imag1}
                         className = 'imgIntro' alt = "img1" />
                     </a>
-                    <a href = "Sitio del imagen">
-                        <img src = {imag2}
-                        className = 'imgIntro' alt = "img2" />
-                    </a>
-                    <a href = "Sitio del imagen">
-                        <img src = {imag3}
-                        className = 'imgIntro' alt = "img3" />
-                    </a>
+                        <Boton></Boton>                        
+                    
                 </div>
-                <br/>
             </div>
 
                

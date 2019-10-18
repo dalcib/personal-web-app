@@ -1,9 +1,13 @@
+.html{
+  overflow-x: hidden;
+}
 .App {
   text-align: center;
   background: #0F2027;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2C5364, #203A43, rgb(0, 2, 3));  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2C5364,rgb(12, 26, 32), #0F2027, #0F2027, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   animation: main 10s 0 ;
+  width: 100%;
 }
 
 
@@ -141,11 +145,11 @@ a.Item:link
 }
 
 .imgIntro{
-  height: 400px;
-  opacity: 0.5;
-  left: 29%;
-  position: initial;
-  padding: 10px;
+ position: absolute;
+  width: 150%;
+  left: -25%;
+  background: black;
+  
 
 }
 
@@ -156,10 +160,12 @@ a.Item:link
   animation: imgBoxAnimBegin 5s;
   border: outset 3px rgba(0, 0, 0, 0.3);
   animation-iteration-count: initial;
-  width:500px;
+  width:100%;
   position: relative;
-  left: 30%;
-  
+  opacity: 0.6;
+  padding-top: 0.5rem;
+  padding-left: 2%;
+  padding-right: 2%;
 
 }
 
@@ -178,7 +184,11 @@ a.Item:link
 }
 
 .rootImg{
-  padding: 60px
+  position: relative;
+  padding: 5%;
+  background: rgba(0, 0, 0, 0.2);
+  width: 70%;
+  left: 25%;
   
 }
 
@@ -190,7 +200,8 @@ a.Item:link
   border: outset 3px rgba(0, 0, 0, 0.2);
   transform: scale(0.6);
   position: relative;
-  left: -100px;
+  margin: 0px;
+  
 }
 
 /* estilo del botton*/
@@ -198,6 +209,12 @@ a.Item:link
 .botonMulti{
   font-family: 'Amatic SC';
   background: rgba(76, 100, 100, 0.5);
+  margin: 20px;
+  position: absolute;
+  top: 90%;
+  left: 42%;
+  width: 10%;
+  height: 5%;
 }
 
 .botonMulti:hover{
@@ -242,9 +259,36 @@ a.Item:link
   }
 }
 
+
+
+
 @media (max-width:800px){
-  .App{
-    background: red;
+  html{
+    overflow-x: hidden;
   }
 
+ .rootImg{
+   width:100%;
+   left: 0;
+    top: 100px;
+  }
+  .imageIntroMain{
+    left: 0;
+    width: 100%;
+    opacity: 1;
+    top: -30%;
+  }
+  .mainLogo{
+    top: 23px;
+    left: -10px;
+    
+  }
+  .socialbar{
+    width: 100%;
+  }
+  .navBar{
+    position: absolute;
+    top: 0;
+    left: 50%;
+  }
 }

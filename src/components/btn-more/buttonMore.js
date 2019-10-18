@@ -6,7 +6,7 @@ export default class buttonMore extends Component {
         return (
             <div>
                 <a href = "go"> 
-                    <input type = 'button' value = 'mora about..' 
+                    <input type = 'button' value = 'more about..' 
                     className = 'botonMulti'                    
                     >
                     </input>
