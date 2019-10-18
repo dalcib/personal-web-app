@@ -26,7 +26,7 @@ export default class imageIntro extends Component {
             <div className = "imageIntroMain">
                 <div className = "mainDescription">
                         <br/>
-                        <p className = 'descTit' >  
+                        <p className = 'DescTit' >  
                         { todo.title }
                         </p>
                         <p className = "Description ">
@@ -35,17 +35,28 @@ export default class imageIntro extends Component {
                         <p className = 'Date'>
                             { todo.date }
                         </p>
-                        <p className = 'Date'>
+                        <p className = 'Tag'>
                             { todo.tags }
                         </p>
                 </div>
                 <div>
                     <a href = "Sitio del imagen">
-                        <img src = {imag1}
+                        <img src = {todo.img1}
                         className = 'imgIntro' alt = "img1" />
                     </a>
-                        <Boton></Boton>                        
-                    
+                    <div className= "show">
+                        <Boton></Boton>  
+                        <div className = "imgMore">
+                            <a href = "Sitio del imagen">
+                                <img src = {todo.img2}
+                                className = 'imgIntro' alt = "img1" />
+                            </a>                
+                            <a href = "Sitio del imagen">
+                                <img src = {todo.img3}
+                                className = 'imgIntro' alt = "img1" />
+                            </a> 
+                        </div>  
+                    </div>        
                 </div>
             </div>
 

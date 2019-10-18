@@ -2,14 +2,25 @@
 "todos" :[
 {
     "title": "First own made texture",
-    "description": "This is my first scene made with my own textures. Was rendered in Arnold.",
+    "description": "This is my first scene made with my own textures. Was rendered in Arnold. This textures were made in photoshop and the bumping was made with the help of a online plugin",
     "tags": "Arnold ,Render ,3D , Textures",
     "date": "October 2019",
-    "img1": "../graphics/slide-long/imageIntro-1.jpeg",
-    "img2": "../graphics/slide-long/imageIntro-2.jpeg",
-    "img3": "../graphics/slide-long/imageIntro-3.jpeg"
+    "img1": "https://i.ibb.co/CmFQx10/Render-AAS2.png",
+    "img2": "https://i.ibb.co/0BXLNDn/Render-AAS3.png",
+    "img3": "https://i.ibb.co/jDwWHhx/Render-AAS1.png"
+
+},
+{
+    "title": "6M - 3D office Model",
+    "description": "This is a model made in maya for a company named SteelMax, This model was rendered using Arnold and some free textures. ",
+    "tags": "Arnold ,Render ,3D Model",
+    "date": "October 2019",
+    "img1": "https://i.ibb.co/j30RPbZ/R2-F.png",
+    "img2": "https://i.ibb.co/MsjGNs6/R1-F.png",
+    "img3": "https://i.ibb.co/gj5FS8x/R3-F.png"
 
 }
+
 
 
 

@@ -168,15 +168,35 @@ a.Item:link
   padding-right: 2%;
 
 }
+.DescTit{
+  font-family: 'Amatic SC';
+  font-size: 6vmin;  
+  margin: 0;
+  color: rgba(76, 100, 100, 1);
+}
 
 .Description{
   font-family: 'Amatic SC';
   font-size: 3vmin;  
+  margin: 5%;
 }
 
 .Date{
   font-family: 'Amatic SC';
+  font-size: 2vmin;
+  margin: 10px;
+  background: rgba(0, 0, 0, 0.2);
+ 
+}
+.Tag{
+  top: 20%;
+  font-family: 'Amatic SC';
   font-size: 3vmin;
+  margin: 10px;
+  background: rgba(0, 0, 0, 0.6);
+ 
+  border-radius: 30px;
+  color: white;
 }
 
 .imageIntroMain:hover{
@@ -189,7 +209,8 @@ a.Item:link
   background: rgba(0, 0, 0, 0.2);
   width: 70%;
   left: 25%;
-  
+  animation: socialAnimBegin 7s;
+  animation-iteration-count: initial;  
 }
 
 .imgIntro:hover{
@@ -199,9 +220,16 @@ a.Item:link
 .imgIntro{
   border: outset 3px rgba(0, 0, 0, 0.2);
   transform: scale(0.6);
-  position: relative;
+  position: relative;;
   margin: 0px;
   
+}
+.imgMore{
+ display: none;
+}
+
+.show:hover > .imgMore{
+  display: initial;
 }
 
 /* estilo del botton*/
@@ -210,10 +238,10 @@ a.Item:link
   font-family: 'Amatic SC';
   background: rgba(76, 100, 100, 0.5);
   margin: 20px;
-  position: absolute;
+  
   top: 90%;
   left: 42%;
-  width: 10%;
+  
   height: 5%;
 }
 
@@ -284,11 +312,26 @@ a.Item:link
     
   }
   .socialbar{
-    width: 100%;
+    width: 10%;
   }
   .navBar{
-    position: absolute;
-    top: 0;
-    left: 50%;
+    display: none;
   }
+  .Description{
+    font-size: 5vmin;
+  }
+  .DescTit{
+    font-size: 8vmin;
+  }
+  .Date{
+    font-size: 4vmin;
+  }
+  .Tag{
+   font-size: 4.5vmin;
+  }
+  .botonMulti{
+    transform: scale(2);
+  }
+
 }
+

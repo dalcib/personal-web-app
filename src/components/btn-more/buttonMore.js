@@ -5,8 +5,8 @@ export default class buttonMore extends Component {
     render() {
         return (
             <div>
-                <a href = "go"> 
-                    <input type = 'button' value = 'more about..' 
+                <a> 
+                    <input type = 'button' value = 'show more' 
                     className = 'botonMulti'                    
                     >
                     </input>
