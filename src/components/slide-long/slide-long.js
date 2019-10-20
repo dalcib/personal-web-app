@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import imag1 from '../graphics/slide-long/imageIntro-1.jpeg';
-import imag2 from '../graphics/slide-long/imageIntro-2.jpeg';
-import imag3 from '../graphics/slide-long/imageIntro-3.jpeg';
 import Boton from '../btn-more/buttonMore';
 import { todos } from '../../todos.json';
+import SlideVid from '../slide-vid/SlideVid'
 
 
 
@@ -39,19 +37,19 @@ export default class imageIntro extends Component {
                             { todo.tags }
                         </p>
                 </div>
-                <div>
-                    <a href = "Sitio del imagen">
+                <div className = 'imageConteiner'>
+                    <a>
                         <img src = {todo.img1}
                         className = 'imgIntro' alt = "img1" />
                     </a>
                     <div className= "show">
-                        <Boton></Boton>  
+                        <Boton className = "boton"></Boton>  
                         <div className = "imgMore">
-                            <a href = "Sitio del imagen">
+                            <a>
                                 <img src = {todo.img2}
                                 className = 'imgIntro' alt = "img1" />
                             </a>                
-                            <a href = "Sitio del imagen">
+                            <a>
                                 <img src = {todo.img3}
                                 className = 'imgIntro' alt = "img1" />
                             </a> 
@@ -65,7 +63,8 @@ export default class imageIntro extends Component {
         })
         return (
             <div>
-                <div> {todos}</div>    
+                <div> {todos}</div>   
+                <SlideVid/> 
             </div>
         )
     }
