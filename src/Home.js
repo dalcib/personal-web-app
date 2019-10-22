@@ -36,7 +36,7 @@ export default class Home extends Component {
                     <ButtonSocial/>
                 </div>
                 
-                <TittleTop txt='NEWS & RECENT'/>
+                <TittleTop className = "mainTittle" txt='NEWS & RECENT'/>
                 <br/>
                 
             </div>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ReactPlayer from 'react-player'
 import {urlvid} from '../../urlvid.json'
-console.log(urlvid)
+
 
 
 export default class SlideVid extends Component {
@@ -37,6 +37,13 @@ export default class SlideVid extends Component {
                     <a>
                         <ReactPlayer url={vid.url}
                         className = "video"
+                        config = {{
+                            youtube: {
+                                playerVars: { showinfo:1 }
+                            }
+                        }
+                        }
+                        
                         />
                     </a>
                 </div>

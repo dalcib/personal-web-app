@@ -45,19 +45,7 @@ a.Item:link
     left: 23%;
     top: 15%; 
   }
-  /*  20%{
-    height: 65vmin;
-    
-  }
-  25%{
-    height: 62vmin;
-  }
-  30%{
-    height: 65vmin;
-  }*/
-
   35%{
-    /*height: 62vmin;*/
     opacity: 1;
   }
 
@@ -240,7 +228,11 @@ a.Item:link
 }
 
 .video{
+  margin: 10%;
   width: 100%;
+  position: relative;
+  left: 12%;
+
 }
 
 /* estilo del botton*/
@@ -324,8 +316,51 @@ a.Item:link
   .mainLogo{
     top: 23px;
     left: -10px;
-    
+    animation: logoAnim 5s initial;
   }
+  @keyframes logoAnim
+{
+  0%{
+    opacity: 0.25;
+    height: 65vmin;
+    left: 0%;
+    top: -100%;
+  }
+
+  10% {
+    opacity: 1;
+    height: 65vmin;
+    left: -5%;
+    top: 15%; 
+  }
+  35%{
+    opacity: 1;
+  }
+
+  40% {
+    opacity: 1;
+    height: 65vmin;
+    left: -5%;
+    top: 15%;
+  }
+
+  48%{
+    opacity: 0;
+    height: 25vmin;
+    left: -10px;
+    top: 5%;
+  }
+  65%{
+    opacity: 1;
+    height: 25vmin;
+    left: -10px;
+  }
+  100%{
+    opacity: .9;
+  }
+
+}
+
   .socialbar{
     width: 10%;
   }
@@ -350,7 +385,7 @@ a.Item:link
   .video{
       transform: scale(0.5);
     position: relative;
-    left: -40%;
+    left: -50%;
 
   }
 

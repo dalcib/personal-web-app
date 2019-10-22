@@ -40,3 +40,14 @@
     }
   
   }
+
+  @media (max-width:800px){
+    .txt{
+        position: absolute;
+        top: 90%;
+        left: 10%;
+        font-size:5vmin; 
+    
+    }
+
+  }
