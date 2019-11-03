@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Boton from '../btn-more/buttonMore';
 import { todos } from '../../todos.json';
 import SlideVid from '../slide-vid/SlideVid'
+import Btndownload from '../btn-download/btndownload'
+import SlideVideogame from '../slideVideogame/SlideVideogame'
 
 
 
@@ -65,6 +67,7 @@ export default class imageIntro extends Component {
             <div>
                 <div> {todos}</div>   
                 <SlideVid/> 
+                <SlideVideogame/>
             </div>
         )
     }
