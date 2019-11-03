@@ -18,21 +18,34 @@ background: whitesmoke;
 }
 
 .tags-container{
-    background: red;
-    border-radius: 2rem;
-    padding: 1.2rem;
-    font-size:100%;
-    width: 60%;
-    height: 30px;
+    background: orange;
+    width: 100%;
+    font-size:180%;
     text-align: center;
-    margin: 2rem;
-    font-family: 'Staatliches', cursive;
     position: relative;
-    left: 20%;
+    font-family: Impact;
+    font-family: 'McLaren', cursive;
+    font-family: 'Staatliches', cursive;
+    border-radius: 2rem;
+    
+}
+
+.image{
+    width: 100%;
+}
+.image:hover{
+    transform: scale(1.4);
+    padding: 2rem;
+}
+
+.image-containers{
+    margin: 5rem;
+    box-shadow: black;
 }
 
 .description-container{
     background: greenyellow;
+    font-size: 300%;
     width: 70%;
     position: relative;
     left: 18%;
@@ -40,25 +53,38 @@ background: whitesmoke;
 }
 .button-container{
     position: relative;
-    padding: 3rem;
+    padding:1rem;
 }
 
 @media (max-width:800px){
-
+    .description-container{
+        width: 120%;
+        left: -10%;
+        font-size: 150%;
+    }
     .tittle-container{
-        font-size: 250%;
+        font-size: 300%;
     }
     .tags-container{
-        background: red;
-        border-radius: 2rem;
-        padding: 1.2rem;
-        font-size:100%;
+        background: orange;
         width: 100%;
-        height: 30px;
+        font-size: 100%;
         text-align: center;
-        margin: 2rem;
-        font-family: 'Open Sans Condensed', sans-serif;
         position: relative;
-        left: -15%;
+        font-family: Impact;
+        font-family: 'McLaren', cursive;
+        font-family: 'Staatliches', cursive;
+        
+    }
+    .image-containers{
+        margin: 1rem;
+        box-shadow: black;
+    }
+    .image:hover{
+        transform: scale(2.5);
+    }
+
+    P{
+        text-align: center;
     }
 }

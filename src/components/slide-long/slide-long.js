@@ -40,21 +40,15 @@ export default class imageIntro extends Component {
                         </p>
                 </div>
                 <div className = 'imageConteiner'>
-                    <a>
                         <img src = {todo.img1}
                         className = 'imgIntro' alt = "img1" />
-                    </a>
                     <div className= "show">
                         <Boton className = "boton"></Boton>  
                         <div className = "imgMore">
-                            <a>
                                 <img src = {todo.img2}
                                 className = 'imgIntro' alt = "img1" />
-                            </a>                
-                            <a>
                                 <img src = {todo.img3}
                                 className = 'imgIntro' alt = "img1" />
-                            </a> 
                         </div>  
                     </div>        
                 </div>

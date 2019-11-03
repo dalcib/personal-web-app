@@ -5,7 +5,12 @@
         "description": "Welcome, this is my first videogame created in Unity engine, the name of the game is Jump Baller. This is a plataform game of 4 levels a multiplayer mode. ",
         "tags": "Unity, GamePlataform, Game 3D ",
         "date": "Nov 2019",
-        "href": "../../downloadFiles/JumpBallerVersionFinal.zip"
+        "imag1":"https://i.ibb.co/Xt2bpXz/img.png",
+        "imag2":"https://i.ibb.co/KsXjFmf/img1.png",
+        "imag3":"https://i.ibb.co/p113VFZ/img2.png",
+        "imag4":"https://i.ibb.co/m6SFRv4/img3.png",
+        "href": "../../downloadFiles/JumpBallerVersionFinal.zip",
+        "description2":"The objective of the game is to get the box to the coin in order to win the level. Hope You enjoy"
     }   
     ]
     }
