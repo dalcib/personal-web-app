@@ -7,7 +7,7 @@ background: whitesmoke;
 }
 
 .tittle-container{
-    background: yellow;
+    color: rgb(9, 94, 94);
     width: 100%;
     font-size: 500%;
     text-align: center;
@@ -18,7 +18,7 @@ background: whitesmoke;
 }
 
 .tags-container{
-    background: orange;
+    background:  rgba(2, 52, 52, 0.2);
     width: 100%;
     font-size:180%;
     text-align: center;
@@ -28,6 +28,10 @@ background: whitesmoke;
     font-family: 'Staatliches', cursive;
     border-radius: 2rem;
     
+}
+
+.button-container{
+    float: left;
 }
 
 .image{
@@ -44,12 +48,14 @@ background: whitesmoke;
 }
 
 .description-container{
-    background: greenyellow;
+    background: rgb(5, 123, 105,0.3);
     font-size: 300%;
     width: 70%;
     position: relative;
     left: 18%;
-    font-family: 'Staatliches', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    border-radius: 2rem;
+    padding: 2rem;
 }
 .button-container{
     position: relative;

@@ -1,0 +1,51 @@
+ul{
+    list-style: none;
+    align-self: center;
+    display: inline;
+    
+}
+
+h2{
+    margin-top: 2rem;
+    margin-bottom:2rem ;
+    color: rgb(5, 123, 105,0.7);
+
+}
+.Icon{
+    transform: scale(2);
+    margin-bottom: 5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+li>p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 150%;
+}
+
+.download-container{
+   
+    width: 100%;
+    border-style: double;
+}
+
+@media(max-width:800px){
+
+    .Icon{
+        transform:scale(0.8);
+        position: relative;
+        margin: 1rem;
+        
+    }
+    li>p{
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 100%;
+    }
+    .download-container{
+        background: rgba(0, 0, 0, 0);
+        width: 100%;
+        
+    }
+}
