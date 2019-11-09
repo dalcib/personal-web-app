@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import GameMac from '../../downloadFiles/JumpBallerVersionFinal.zip'
+import GameMac from '../../components/graphics/foto.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faApple , faWindows } from '@fortawesome/free-brands-svg-icons';
 import './btndownload.css'

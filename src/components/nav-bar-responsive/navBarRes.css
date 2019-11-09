@@ -1,0 +1,27 @@
+.Main:hover{
+    transform: scale(1.4);
+
+}
+
+.Icon{
+  
+}
+
+.Main:hover> .ocultar{
+    display: initial;
+    
+}
+
+.Main:hover > .Icon{
+    display: none;
+}
+
+.ocultar{
+    display: none;
+ 
+
+}
+.Icon{
+    color: greenyellow;
+
+}

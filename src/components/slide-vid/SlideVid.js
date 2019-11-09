@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import ReactPlayer from 'react-player'
-import {urlvid} from '../../urlvid.json'
+import {urlvid} from '../../jsonRenameFiles/urlvid.json'
 
 
 

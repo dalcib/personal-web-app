@@ -11,7 +11,7 @@ class Navegation extends Component {
                     <li>
                         <ul>
                             <div>
-                                <a href = "MyWork" className="Item">
+                                <a href = {this.props.ref1} className="Item">
                                     {this.props.tit}
                                     <p className = 'Subtittle'>
                                         {this.props.subt1}
@@ -22,7 +22,7 @@ class Navegation extends Component {
                         </ul>
                         <ul>
                             <div>
-                                <a href="Products" className="Item">
+                                <a href = {this.props.ref2} className="Item">
                                     {this.props.tit2}
                                     <p className = 'Subtittle'>
                                         {this.props.subt2}
@@ -32,7 +32,7 @@ class Navegation extends Component {
                         </ul>
                         <ul>
                             <div>
-                                <a href = 'AboutMe' className="Item">
+                                <a href = {this.props.ref3} className="Item">
                                     {this.props.tit3}
                                     <p className = 'Subtittle'>
                                         {this.props.subt3}

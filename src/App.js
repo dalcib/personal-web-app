@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
 import './components/tittle-top/css/mainTittle.css';
-import Home from './Home'
-import JumpBaller from './JumpBaller';
+import Home from './routers/Home'
+import JumpBaller from './routers/JumpBaller';
+import Mywork from './routers/MyWork';
+import AboutMe from './routers/AboutMe'
+
+
 import {BrowserRouter as Router , Switch , Route } from 'react-router-dom';
-import Mywork from './MyWork';
 
 
 
@@ -44,6 +47,21 @@ function App() {
 
             } /> 
         </Switch>
+        <Switch>
+            <Route 
+            path= "/AboutMe" exact render = {
+              ()=>{
+                return (<AboutMe></AboutMe>)
+
+              }
+
+
+            }
+            />
+
+
+        </Switch>
+
       </Router>
     </div>
   );

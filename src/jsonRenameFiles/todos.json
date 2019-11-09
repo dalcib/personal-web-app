@@ -1,0 +1,58 @@
+{
+"todos" :[
+{
+    "title": "First own made texture",
+    "description": "This is my first scene made with my own textures. Was rendered in Arnold. This textures were made in photoshop and the bumping was made with the help of a online plugin",
+    "tags": "Arnold ,Render ,3D , Textures",
+    "date": "October 2019",
+    "img1": "https://i.ibb.co/CmFQx10/Render-AAS2.png",
+    "img2": "https://i.ibb.co/0BXLNDn/Render-AAS3.png",
+    "img3": "https://i.ibb.co/jDwWHhx/Render-AAS1.png"
+
+},
+{
+    "title": "6M - 3D office Model",
+    "description": "This is a model made in maya for a company named SteelMax, This model was rendered using Arnold and some free textures. ",
+    "tags": "Arnold ,Render ,3D Model",
+    "date": "October 2019",
+    "img1": "https://i.ibb.co/j30RPbZ/R2-F.png",
+    "img2": "https://i.ibb.co/MsjGNs6/R1-F.png",
+    "img3": "https://i.ibb.co/gj5FS8x/R3-F.png"
+
+},
+{
+    "title": "Branding Photoedit",
+    "description": "This was a photo sesion of a proyect of my school. Here you can see what can you do with a good manage of the photoshop tools.",
+    "tags": "Photoshop, Photo",
+    "date": "October 2019",
+    "img1": "https://i.ibb.co/0MYskgF/pos.jpg",
+    "img2": "https://i.ibb.co/RzND0cP/Pre.jpg",
+    "img3": "https://i.ibb.co/bQxCxSJ/Levis.jpg"
+
+},
+{
+    "title": "1st Maya 3d Model - Pirate Ship",
+    "description": "This is my first 3d Model made in Maya. Made in my 3rd semester of university. ",
+    "tags": "3D, Arnold, Render",
+    "date": "Febrary 2019",
+    "img1": "https://i.ibb.co/wYm7dN4/Render1.jpg",
+    "img2": "https://i.ibb.co/55gfv4q/Render2.jpg",
+    "img3": "https://i.ibb.co/wWKZSsK/Render3.jpg"
+
+}
+
+
+
+
+
+
+
+
+
+
+
+]
+
+
+
+}

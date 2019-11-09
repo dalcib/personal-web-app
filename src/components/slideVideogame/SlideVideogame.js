@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {descriptionJumpBaller} from '../../descriptionJumpBaller.json'
+import {descriptionJumpBaller} from '../../jsonRenameFiles/descriptionJumpBaller'
 import Button from '../btn-download/btndownload'
 import './slideVideoGame.css'
 

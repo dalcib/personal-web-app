@@ -318,6 +318,13 @@ a.Item:link
     left: -10px;
     animation: logoAnim 5s initial;
   }
+
+  .navRes{
+    position: fixed;
+    top: 23px;
+    left: -10px;
+    animation: logoAnim 5s initial;
+  }
   @keyframes logoAnim
 {
   0%{
